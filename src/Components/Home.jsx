@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import cartpic from '../Media/stawberry.jpg'
+import cartpic from '../Media/eddy.jpg'
 import '../Styles/Home.css'
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
       <div className='head-text'>
 
         <h1 className='pylot1'>Pylot's fruity store</h1>
-        <p className='pylot2'>Celebrity fruits that quench any taste</p>
+        <p className='pylot2'>Customer's satisfactory</p>
 
         <Link to = "/menu">
           <button className='button1'>ORDER NOW</button>
