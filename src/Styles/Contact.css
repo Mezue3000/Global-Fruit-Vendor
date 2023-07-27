@@ -6,7 +6,7 @@
 
 .image {
     height: 600px;
-    width: 600px;
+    width: 475px;
 }
 
 
@@ -20,13 +20,18 @@
 
 
 .imput {
-    width: 250px;
-    padding: 10px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 7px;
+    border: solid;
 }
 
 
 .area {
-    width: 450px;
+    width: 480px;
+    margin-left: 5px;
+    border-radius: 7px;
+    border: solid;
 }
 
 
@@ -41,4 +46,14 @@
     font-size: 25px;
     font-weight: 20px;
     padding: 10px;
+}
+
+
+
+.imput1 {
+    padding: 15px;
+    margin-left: 38px;
+    width: 350px;
+    border-radius: 7px;
+    border: solid;
 }

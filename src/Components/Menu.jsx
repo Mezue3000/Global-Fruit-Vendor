@@ -6,6 +6,8 @@ import grapes from '../Media/grapes.jpg'
 import lemon from '../Media/lemon.jpg'
 import oranges from '../Media/oranges.jpg'
 import pear from '../Media/pear.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import '../Styles/Menu.css'
 
 const Menu = () => {
@@ -13,8 +15,8 @@ const Menu = () => {
   return (
 
     <div className='grid'>
-      
-      <h1 className='text'>Pylot's Fruity Menu</h1>
+      <FontAwesomeIcon className='cat' icon={faCartShopping} />
+
       <div className='grid2'>
 
         <div className='words' >
@@ -59,7 +61,8 @@ const Menu = () => {
         <div className='words' >
           <img className='my-pic' src={pear} />
           <h3>Avocado Pear</h3>
-          <span>$9.80</span>
+          <span>$9.
+            80</span>
           <button>Add To Cart</button>
         </div>
 
